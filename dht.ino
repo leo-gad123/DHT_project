@@ -1,3 +1,14 @@
+/*
+developer name: leogad
+date: 17/05/2015
+description: "This code help to send data from dht sensor to be displayed by using Firebase real
+time database on web
+tip: Enjoy this code
+*/
+
+
+
+
 #include <ESP8266WiFi.h>
 #include <FirebaseESP8266.h>
 #include <DHT.h>
@@ -8,7 +19,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // WiFi Credentials
-const char* ssid = "EdNet";
+const char* ssid = "EdNet";// you can put your own network
 const char* password = "Huawei@123";
 
 // Firebase Credentials
